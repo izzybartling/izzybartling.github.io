@@ -20,13 +20,6 @@ body {
   h1, h2, h3 {
     text-align: center;
   }
-  
-  .code {
-    font-family: "Lucida Console", Courier, monospace;
-    padding: 3px;
-    background-color: #ffffff;
-    font-size: 14px;
-  }
 
   /*TABLE*/
 
@@ -50,6 +43,7 @@ body {
 
   td {
     text-align: left;
+    font-size: 15px;
   }
 
   tr.even {
@@ -58,4 +52,11 @@ body {
 
   tr.odd {
     background-color: #ffffff;
+  }
+
+  .code {
+    font-family: "Lucida Console", Courier, monospace;
+    padding: 3px;
+    background-color: #ffffff;
+    font-size: 14px;
   }

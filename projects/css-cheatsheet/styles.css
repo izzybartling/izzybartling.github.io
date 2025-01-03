@@ -24,7 +24,7 @@ body {
   /*TABLE*/
 
   table {
-    width: 700px;
+    max-width: 700px;
     margin: auto;
     padding: 0px;
   }

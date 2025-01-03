@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>CSS Property Reference</h1>
+    <section>
+      <h2>Position Property</h2>
+
+      <table>
+        <thead>
+          <tr class="odd">
+            <th scope="col">Property</th>
+            <th scope="col" colspan="2">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="odd">
+            <td><span class="code">position</span></td>
+            <td colspan="2">Allows you to control the layout of the page.</td>
+          </tr>
+          <tr>
+            <th scope="col">Value</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+          </tr>
+          <tr class="even">
+            <td><span class="code">static</span></td>
+            <td>Normal Flow</td>
+            <td>Each block-level element sits on top of the next one.</td>
+          </tr>
+          <tr class="odd">
+            <td><span class="code">relative</span></td>
+            <td>Relative Positioning</td>
+            <td>Moves an element relative to its normal position.</td>
+          </tr>
+          <tr class="even">
+            <td><span class="code">absolute</span></td>
+            <td>Absolute Positioning</td>
+            <td>
+              The element is taken out of normal flow and doesn't affect the
+              position of other elements on the page.
+            </td>
+          </tr>
+          <tr class="odd">
+            <td><span class="code">fixed</span></td>
+            <td>Fixed Positioning</td>
+            <td>
+              Positions the element in relation to the browser window, which
+              means it always stays in the same place even if the page is
+              scrolled.
+            </td>
+          </tr>
+          <tr class="even">
+            <td><span class="code">sticky</span></td>
+            <td>Sticky Positioning</td>
+            <td>
+              Positions element based on user's scroll position. Relative until
+              a given offset position is met in the viewport - then it "sticks"
+              in place.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Related Properties</h3>
+
+      <table>
+        <thead>
+          <th scope="col">Property</th>
+          <th scope="col">Description</th>
+        </thead>
+        <tbody>
+          <tr class="odd">
+            <td><span class="code">z-index</span></td>
+            <td>
+              Used to control which element sits on top. The higher the number,
+              the closer that element is to the front.
+            </td>
+          </tr>
+          <tr class="even">
+            <td><span class="code">float</span></td>
+            <td>
+              Puts an element as far to the left or right as possible. Anything
+              else will flow around this element. You should set width too.
+            </td>
+          </tr>
+          <tr class="odd">
+            <td><span class="code">clear</span></td>
+            <td>
+              Allows you to say that no element should touch the left or
+              right-hand sides of a box.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>

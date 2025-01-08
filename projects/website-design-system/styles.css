@@ -1,0 +1,111 @@
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+h2 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+
+section {
+    border: 1px solid #dadce0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+/*Colors*/
+.color {
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    width: 100px;
+}
+
+.color-box {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+}
+
+.navy-blue {
+    background-color: #000080;
+    color: #ffffff;
+}
+
+.crimson {
+    background-color: #98042d;
+    color: #ffffff;
+}
+
+.rosewater {
+    background-color: #fcc0c5;
+}
+
+.snow {
+    background-color: #fbf6f3;
+}
+
+/*Fonts*/
+.font {
+    display: inline-block;
+}
+
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Text Styles*/
+.main-heading {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Merriweather", serif;
+}
+
+.subheading {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.code {
+    padding: 10px;
+    font-family: "Roboto Mono", serif;
+    font-size: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 16px;
+}

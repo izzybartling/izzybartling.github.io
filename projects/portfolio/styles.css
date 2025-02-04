@@ -174,6 +174,7 @@ li {
 }
 
 .project-details {
+    text-align: center;
     padding: 1.5rem;
 }
 
@@ -226,4 +227,105 @@ li {
 
 #contact a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    /* Header: Stack image above text */
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .left img {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    /* Skills Section: Stack Technical Skills Above Soft Skills */
+    .skills-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .technical-skills, .soft-skills {
+        width: 100%;
+    }
+
+    /* Projects: Stack projects in a single column */
+    .project-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    /* Responsive Navigation */
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #DB5500;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        text-align: center;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+.project-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #DB5500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #A63E00;
+}
+
+.btn-secondary {
+    background-color: #6F4F1E;
+}
+
+.btn-secondary:hover {
+    background-color: #523415;
 }

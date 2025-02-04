@@ -9,9 +9,9 @@
 <body>
     <nav>
         <div class="logo">Izzy Bartling</div>
+        <div class="hamburger">&#9776;</div> <!-- This is the hamburger icon -->
         <ul>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -65,6 +65,9 @@
                         <p class="project-description">I designed and developed a myUSF site for the College of Arts & Sciences' Justice, Equity, Diversity, and Inclusion (JEDI) initiative.</p>
                         <p><strong>Technologies Used:</strong> Drupal content management system, Adobe Photoshop</p>
                         <p><strong>My Contribution:</strong> I spearheaded the entire project, from initial concept to final implementation, ensuring timely delivery and adherence to accessibility standards.</p>
+                        <div class="project-buttons">
+                            <a href="https://myusf.usfca.edu/arts-sciences/jedi" class="btn" target="_blank">View Project</a>
+                        </div>
                     </div>
                 </div>
     
@@ -76,6 +79,9 @@
                         <p class="project-description">I led the redesign of the CNAIL website, focusing on concise content that aligned with USF's voice and tone.</p>
                         <p><strong>Technologies Used:</strong> Drupal, Adobe Photoshop, Jira, Zoom</p>
                         <p><strong>My Contribution:</strong> I spearheaded the entire redesign process, from initial client meetings to final implementation. I managed stakeholder expectations, led design reviews, and ensured timely delivery.</p>
+                        <div class="project-buttons">
+                            <a href="https://www.usfca.edu/data-institute/cnail" class="btn" target="_blank">View Project</a>
+                        </div>
                     </div>
                 </div>
     
@@ -87,6 +93,9 @@
                         <p class="project-description">I created a new undergraduate program page on myUSF that demonstrates the latest content guidelines and recommendations.</p>
                         <p><strong>Technologies Used:</strong> Drupal, Photoshop</p>
                         <p><strong>My Contribution:</strong> Developed the page, worked with content strategy team to refine guidelines, and created a mockup to illustrate content best practices.</p>
+                        <div class="project-buttons">
+                            <a href="https://myusf.usfca.edu/marketing-communications/resources/how-to-create-undergraduate-program-homepage" class="btn" target="_blank">View Project</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,6 +112,16 @@
                 <li><strong>GitHub:</strong> <a href="https://github.com/izzybartling" target="_blank">GitHub Profile</a></li>
             </ul>
         </div>
-    </section>        
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const navMenu = document.querySelector("nav ul");
+        
+            hamburger.addEventListener("click", function () {
+                navMenu.classList.toggle("active");
+            });
+        });
+        </script>        
 </body>
 </html>

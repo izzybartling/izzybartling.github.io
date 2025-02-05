@@ -38,19 +38,22 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4rem 2rem;
+    padding: 0 2rem;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .column {
     flex: 1;
-    padding: 1rem;
+}
+
+.left {
+    display: flex;
+    align-items: flex-end;
 }
 
 .left img {
     max-width: 100%;
-    border-radius: 10px;
 }
 
 .right h1 {
@@ -62,6 +65,19 @@ header .container {
 .right p {
     font-size: 1rem;
     color: #73762A;
+}
+
+@media screen and (max-width: 768px) {
+    .left img {
+        background-color: #F4E1D2;
+        border-radius: 10px;
+    }
+    header .container {
+        padding: 4rem 2rem;
+    }
+    .column {
+        padding: 1rem;
+    }
 }
 
 #skills {

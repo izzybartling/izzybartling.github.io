@@ -147,6 +147,12 @@ img.hero {
     padding: 4em;
 }
 
+@media screen and (max-width: 600px) {
+    .container-2 {
+        padding: 2em;
+    }
+}
+
 /*Products Section*/
 div.products {
     padding: 2em;

@@ -1,0 +1,196 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.intro-text, h2 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F5E2CE;
+    line-height: 1.5;
+}
+
+/*Buttons*/
+button.light {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1.5px solid #AE431E;
+    background-color: #F5E2CE;
+    color: #AE431E;
+    font-weight: 700;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+button.dark {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1.5px solid #F5E2CE;
+    background-color: #AE431E;
+    color: #F5E2CE;
+    font-weight: 700;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+button.cart {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #AE431E;
+    color: #F5E2CE;
+    font-weight: 700;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+/*Navigation Bar*/
+.navbar {
+    display: flex;
+    width: 100%;
+    color: #F5E2CE;
+    background-color: #AE431E;
+}
+
+.logo {
+    flex-grow: 2;
+    margin-left: 30px;
+}
+
+.logo-font {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.menu-items {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 5em;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-item {
+        margin-right: 20px;
+    }
+}
+
+/*Hero*/
+.container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+        text-align: center;
+    }
+}
+
+.hero-image {
+    box-sizing: border-box;
+}
+
+img.hero {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    border: 1px solid #AE431E;
+}
+
+.hero-text {
+    height: fit-content;
+    color: #AE431E;
+}
+
+/*Mission Section*/
+.container-2 {
+    color: #F5E2CE;
+    background-color: #AE431E;
+    text-align: center;
+    padding: 4em;
+}
+
+/*Products Section*/
+div.products {
+    padding: 2em;
+}
+
+h2.products {
+    text-align: center;
+    color: #AE431E;
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    /*padding: 10px;*/
+    /*margin: 10px;*/
+    /*background-color: #AE431E;*/
+    text-align: center;
+    color: #AE431E;
+    flex-basis: min-content;
+}
+
+.item > img {
+    width: 300px;
+}
+
+/*Team Section*/
+.team-image {
+    flex-basis: 100%;
+}
+
+img.team {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    border: 3px solid #AE431E;
+}
+
+.team-text {
+    height: fit-content;
+    color: #AE431E;
+    flex-basis: fit-content;
+}
